@@ -1,0 +1,277 @@
+/*-------------------------------MISE EN FORME DU TEXTE---------------------------------*/
+@font-face
+{
+	font-family:"Dosis-ExtraLight";
+	src: url("../dosis/Dosis-ExtraLight.ttf");
+	font-weight: 300;
+}
+
+@font-face
+{
+	font-family:"Dosis-Bold";
+	src: url("../dosis/Dosis-Bold.ttf");
+	font-weight: 300;
+}
+.Dosis-ExtraLight
+{
+	font-family: "Dosis-ExtraLight";
+	font-size:35px;
+}
+
+/*-------------------------------BLOC LOREM---------------------------------*/
+#bloc-lorem
+{
+	background-image: url("../images/fiesta3.png");
+	background-attachment: fixed;
+	height:900px;
+	padding-top: 150px;
+}
+/*-------------------------------BLOC ARTWORK---------------------------------*/
+#bloc-artwork
+{
+	color:black;
+	background-image: url("../images/fond-artwork.png");
+	background-repeat: no-repeat;
+	padding:100px 0;
+}
+#artwork-titre
+{
+	padding-bottom: 70px;
+	font-family: "Dosis-Bold";
+	font-size:55px;
+}
+.Dosis-ExtraLight-artwork
+{
+	font-family: "Dosis-ExtraLight";
+	font-size:28px;
+}
+
+/*-------------------------------BLOC SOCIAL LOCAL MOBILE---------------------------------*/
+#bloc-social
+{
+	background-image: url("../images/poudres.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:100px 0;
+}
+#social-titre
+{
+	padding-bottom: 70px;
+	font-family: "Dosis-Bold";
+	font-size:55px;
+}
+#social-text
+{
+	background-color:rgba(233, 227, 227,0.3);
+	text-align: center;
+}
+/*-------------------------------Navigation---------------------------------*/
+.fas
+{
+	color:black;
+}
+.Dosis-Bold-nav
+{
+	font-family: "Dosis-Bold";
+	font-size:36px;	
+}
+.nav-link
+{
+	color:black;
+}
+.nav-link:hover
+{
+	color:white;
+	transition: 0.4s;
+}
+#purple
+{
+	background-color: rgb(211, 85, 186);
+}
+.pad
+{
+	margin-left: 40px;
+}
+/*-------------------------------CONTACT---------------------------------*/
+.Dosis-Bold-contact
+{
+	font-family: "Dosis-Bold";
+	font-size:30px;	
+}
+#contact
+{
+	background-image: url("../images/fond-contact.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:90px;
+
+}
+.Dosis-ExtraLight-cont
+{
+	font-family: "Dosis-ExtraLight";
+	font-size:18px;
+}
+.Dosis-Bold-adress
+{
+	font-family: "Dosis-Bold";
+	font-size:18px;	
+}
+.Dosis-Bold-loc
+{
+	font-family: "Dosis-Bold";
+	font-size:20px;	
+}
+#afor
+{
+	text-decoration: underline;
+}
+.pad-contact
+{
+	padding-top: 35px;
+}
+.ruban
+{
+	padding-top: 25px;
+}
+#pad-adress
+{
+	padding-top: 20px;
+}
+/*-------------------------------media query---------------------------------*/
+@media only screen and (max-width:767px)
+{
+	#bloc-social
+	{
+	background-image: url("../images/poudres.png");
+	background-position:center center;
+	}
+	#bloc-lorem
+	{
+	background-image: url("../images/fiesta3.png");
+	background-position:center center;
+	}
+}
+/*-------------------------------JOHN---------------------------------*/
+
+.Dosis-Bold
+{
+    font-family: "Dosis-Bold";
+    font-size: 20px;
+    
+}
+
+.Dosis-Bold1
+{
+	font-family:"Dosis-Bold";
+	font-size: 14px;
+}
+
+.Dosis-ExtraLight
+{
+    font-family: "Dosis-ExtraLight";
+    font-size:30px;
+}
+.Dosis-ExtraLight2
+{
+    font-family: "Dosis-ExtraLight";
+    font-size:25px;
+}
+
+.Dosis-ExtraLight3
+{
+	font-family: "Dosis-ExtraLight";
+    font-size:14px;
+}
+
+/* ------------------------------------------- partie WE ARE A SMALL COMPAGNY ----------------------------*/
+#pad1
+{
+	padding-top: 200px;
+}
+#pad2 
+{
+	padding-top: 70px;
+}
+
+.fond-we
+{
+	background-image: url("../images/epices.png");
+	height: 1100px;
+	background-size: cover;
+}
+
+#bordure
+{
+	border: 3px solid black;
+}
+
+.texte
+{
+	padding-top: 40px;
+	padding-left: -15px;
+	text-align: center;
+}
+
+#pad3
+{
+	padding: 60px;
+}
+
+#pad4
+{
+	padding: 50px;
+
+}
+
+#pad5
+{
+	padding: 30px;
+}
+
+#pad6
+{
+	padding-top: 20px;
+}
+/* ---------------------------------------------- partie footer -------------------------------------*/
+
+.survol a:hover
+{
+	color: #f99b05;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: left;
+	border-width: 2px;
+	border-color: #f99b05;
+	border-style: solid;
+	height: 31px;
+
+}
+
+.survol a
+{
+	color: black;
+	text-decoration: none;
+}
+
+.fondfooter
+{
+	height: 150px;
+	background-color:  #00a7c2;
+}
+
+.home
+{
+	padding-right: 200px;
+
+}
+
+.home1
+{
+	padding-left: 200px;
+}
+
+.pad7
+{
+	padding: 50px;
+}
